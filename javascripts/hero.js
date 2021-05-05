@@ -11,5 +11,6 @@ function appendHeros(heros){
         // li.innerText = hero.secretIdentity 
         li.innerText = hero.superName
         herosDiv.append(li)
+        appendPowers(hero.powers, li)
     }
 }
